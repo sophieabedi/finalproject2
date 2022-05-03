@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Source+Code+Pro&display=swap');
+
+html{
+  background-color: #0d6d70
+
+}
+
+body{
+  font-family: 'Source Code Pro', monospace;
+  color: #efedef
+
+}
+
+.title{
+  font-family: 'Bebas Neue', cursive;
+  font-size: 30px;
+  color: #efedef
+}
+
+h1{
+  text-align: center;
+}
+
+h2{
+  font-size: 25px;
+  text-align: center;
+}
+
+.navbar {
+  width: 100%;
+  background-color: #efedef;
+  overflow: auto;
+}
+
+.navbar a {
+  float: left;
+  text-align: center;
+  padding: 12px;
+  color: #1a181a;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+
+.navbar a:hover {
+  background-color: #c1bfc1;
+}
+.mainbody{
+  padding-left: 20px;
+  padding-right: 20px;
+font-size: 17px;
+  color: #efedef;
+}
+
+.maintitle{
+  padding-left: 20px;
+  padding-right: 20px;
+  font-size: 23px;
+  color: #efedef;
+  font-style: italic;
+}
+
+
+.fullWidth {
+  grid-column-start: 0;
+  grid-column-end: span 4;
+}
+
+
+.section {
+
+  grid-column-start: 0;
+  grid-column-end: span 4;
+
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-column-gap: 1vmin;
+  grid-row-gap: 1vmin;
+
+}
+.twoColumn {
+  grid-column-end: span 2;
+}
+
+img {
+  width: 80%;
+  text-align: center;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+
+}
+.img2{
+
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+  background-image: url("https://i.redd.it/d5rwuaorlcd61.png");
+  background-repeat: no-repeat;
+  background-size: cover;
+  
+
+}
